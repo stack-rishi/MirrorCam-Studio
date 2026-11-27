@@ -1,174 +1,203 @@
 <div align="center">
 
-<img src="app_icon.png" alt="MirrorCam Studio Logo" width="130" style="border-radius: 24px;" />
+<img src="app_icon.png" alt="MirrorCam Studio" width="136" style="border-radius: 26px;" />
 
 # MirrorCam Studio
 
-### *More Than Just a Webcam.*
+**More Than Just a Webcam.**
 
-**One Webcam. Multiple Possibilities. Complete Control.**
+*One lens. Infinite frames. Complete creative control over what your camera says on every call.*
 
-Customise what people see on your Windows video calls — mirror your live webcam, display a favourite photo, loop a video clip, or bring animated GIFs into **WhatsApp Desktop**, **Discord**, **Zoom**, **Google Meet**, and **Microsoft Teams**.
-
-[![Download MirrorCam.exe](https://img.shields.io/badge/Download-MirrorCam.exe%20(v1.0.0)-2563eb?style=for-the-badge&logo=windows)](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)
-[![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows11)](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)](LICENSE)
+[![Download MirrorCam Studio](https://img.shields.io/badge/Download-MirrorCam.exe%20(v1.0.0)-111827?style=for-the-badge&logo=windows)](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)
+[![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-1f2937?style=for-the-badge)](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-374151?style=for-the-badge)](LICENSE)
 
 </div>
 
 ---
 
-> **Your webcam doesn't have to show only your face. Show what you want, the way you want.**
+> *"Your webcam doesn't have to show only your face. Show what you want, the way you want."*
 
-Ever jumped onto a video call and felt thrown off because your camera wasn't mirrored — or wished you could show a photo, play a looping clip, or drop an animated GIF straight through your camera feed instead of sitting in front of the lens?
+Every video call begins with the same square frame — an un-mirrored, unyielding live feed that often feels backwards when you look at it and rigid when you need something else.
 
-**MirrorCam Studio** gives you complete control over your outgoing webcam on Windows. Pick a source, hit **Start Stream**, and choose the virtual camera in your calling app. No complicated video-editing setup required.
+**MirrorCam Studio** reimagines that outgoing camera feed on Windows as an expressive canvas. Whether you want the quiet familiarity of a horizontally mirrored lens, a calm still photograph while you step away, a looping visual composition, or an animated GIF timed to the moment, MirrorCam routes your chosen medium straight into **WhatsApp Desktop**, **Discord**, **Zoom**, **Google Meet**, and **Microsoft Teams**.
 
 ---
 
-## ✨ What You Can Do With MirrorCam Studio
+## Philosophy & Craft
 
-| What You Want | How MirrorCam Helps |
+Built to feel lightweight yet intentional, MirrorCam bridges the gap between simple webcam utilities and heavy broadcast suites:
+
+- **Natural Reflection (Live Mirroring)**  
+  Horizontally invert your physical camera in real time so notes, sketches, gestures, and expressions align with how you see yourself in a mirror.
+
+- **Media-as-Camera Composition**  
+  Transform static artwork and photography (`.png`, `.jpg`, `.jpeg`, `.webp`, `.bmp`, `.tiff`), seamlessly looping video reels (`.mp4`, `.mkv`, `.avi`, `.mov`, `.wmv`, `.webm`, `.flv`), or frame-accurate animated `.gif` loops directly into a live virtual camera signal.
+
+- **Precision Geometry & High-DPI Fidelity**  
+  Designed with Windows Per-Monitor V2 DPI awareness so every control renders razor-sharp on scaled displays. Automatically detects your monitor's native resolution and aspect ratio (`16:9`, `16:10`, `4:3`), applying clean letterboxing and bicubic interpolation so your frame never arrives stretched or blurred.
+
+- **Seamless Windows WhatsApp Desktop Bridge**  
+  Includes a dedicated, distraction-free **Clean Feed** pop-out paired with hands-free background automation for OBS Studio and DroidCam Virtual Output — bypassing the Microsoft Store camera sandbox in a single click.
+
+---
+
+## Signal Flow
+
+```text
+  [ Physical Webcam ]  ───┐
+  [ Static Photo    ]  ───┼──>  MirrorCam Studio  ──>  Mirror / Fit / Bicubic Scale
+  [ Looping Video   ]  ───┤
+  [ Animated GIF    ]  ───┘
+                                       │
+                   ┌───────────────────┴───────────────────┐
+                   ▼                                       ▼
+         OBS Virtual Camera                     High-Res Clean Feed
+            (DirectShow)                                   │
+                   │                                       ▼
+                   │                              OBS Window Capture
+                   │                          (DroidCam Virtual Output)
+                   ▼                                       ▼
+   Discord · Zoom · Meet · Teams              Windows WhatsApp Desktop
+       & WhatsApp Web (Browser)                (WinRT / Media Foundation)
+```
+
+---
+
+## Designed For
+
+| Audience | How MirrorCam Fits In |
 |---|---|
-| **Mirror your live camera** | Horizontally flip your physical webcam so people see the natural reflection you're used to — great for reading notes, holding up objects, or just feeling comfortable on camera. |
-| **Use any photo as your webcam** | Turn a `.png`, `.jpg`, `.jpeg`, `.webp`, or `.bmp` image into a clean live feed — ideal for "Be Right Back" cards, profile artwork, or study slides. |
-| **Loop videos automatically** | Select any `.mp4`, `.mkv`, `.avi`, `.mov`, `.wmv`, `.webm`, or `.flv` video and MirrorCam replays it smoothly in an endless loop. |
-| **Send animated GIFs in calls** | Pick any `.gif` and let it animate frame-by-frame inside your Discord, Zoom, or WhatsApp call. |
-| **Keep everything sharp & proportional** | Automatic Per-Monitor High-DPI support and screen-matching resolution (`1920×1080`, `1280×720`, etc.) with clean letterboxing so nothing gets stretched or blurry. |
-| **Connect to WhatsApp Desktop effortlessly** | Includes a pop-out **Clean Feed** and **1-click hands-free OBS automation** that handles the DroidCam Virtual Output bridge for Windows WhatsApp automatically. |
+| **Students & Presenters** | Share visual cards, title slates, or mirrored demonstrations smoothly during online classes and seminars. |
+| **Remote Professionals** | Keep meetings natural with mirrored camera framing or switch cleanly to a curated still image between sessions. |
+| **Creators & Storytellers** | Turn photography, ambient motion loops, and visual artwork into a living webcam presence. |
+| **Gamers & Communities** | Drop reaction GIFs and custom video loops directly into Discord channels as a real camera feed. |
 
 ---
 
-## 👥 Who Is This For?
+## Getting Started
 
-- **College Students** — Customise your camera feed during online classes, study sessions, and club calls.
-- **Remote Teams & Presenters** — Keep a polished, mirrored view or show clean visual placeholders between meetings.
-- **Creators & Gamers** — Experiment with looping intros, reaction GIFs, and creative camera feeds on Discord.
-- **Anyone on Video Calls** — Take control of how you show up on WhatsApp, Meet, Zoom, and Teams.
+### 1. Prerequisite Driver
+MirrorCam uses the virtual camera infrastructure provided by **[OBS Studio](https://obsproject.com/)**. Install OBS Studio once on Windows. For Discord, Zoom, Google Meet, Microsoft Teams, and WhatsApp Web, you do not need to configure or open OBS yourself.
 
----
-
-## 🚀 Quick Start (No Coding Required)
-
-### Step 1: Install OBS Studio
-MirrorCam uses the virtual camera driver included with **[OBS Studio](https://obsproject.com/)**.  
-Download and install OBS Studio once. *(If you use Discord, Zoom, Meet, or Teams, you don't even have to open OBS manually — just having it installed gives Windows the virtual camera driver.)*
-
-### Step 2: Download & Run MirrorCam Studio
+### 2. Download & Launch
 1. Download **[MirrorCam.exe](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)** from the [Releases](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest) page.
-2. Double-click `MirrorCam.exe` to open the studio.
-3. Choose your input source:
-   - **📷 Physical Webcam** (select Camera Index `0`, `1`, etc.), or
-   - **📁 Media File** (browse for any photo, video, or `.gif`).
-4. Toggle **Mirror output (Flip horizontally)** or **Match Screen** resolution if needed.
-5. Click **▶ Start Stream**.
+2. Run `MirrorCam.exe` — no Python runtime or dependency installation is required.
+3. Select an input source:
+   - **Physical Webcam** (`Camera Index` `0`, `1`, etc.), or
+   - **Media File** (any photo, video, or animated GIF).
+4. Adjust **Resolution** (or click **Match Screen** to lock onto your display's native dimensions and aspect ratio) and **Mirror output**.
+5. Click **Start Stream**.
 
 ---
 
-## 📱 Connecting to Your Calling App
+## Connecting to Calling Platforms
 
 ### Discord, Zoom, Google Meet & Microsoft Teams
-These apps work right out of the box:
-1. Click **▶ Start Stream** in MirrorCam Studio.
-2. Open Video Settings in your calling app and pick **`OBS Virtual Camera`**.
-3. *(Tip)* If your app has its own "Mirror my video" preview toggle, turn that off so you don't accidentally flip the video twice.
+1. Start your stream inside MirrorCam Studio.
+2. Open **Video Settings** inside your calling application and select **`OBS Virtual Camera`**.
+
+> [!TIP]
+> If your calling app applies its own local self-view mirror toggle, disable that toggle so MirrorCam remains your single source of truth.
 
 ---
 
 ### Windows WhatsApp Desktop (Microsoft Store App)
-> **Why does WhatsApp Desktop need an extra step?**  
-> Unlike Discord or Chrome, the Windows Store version of WhatsApp runs inside an AppContainer sandbox and only recognises kernel-level Windows camera drivers — it hides standard virtual cameras like OBS Virtual Camera. MirrorCam solves this cleanly with a built-in **Clean Feed + OBS + DroidCam** bridge.
 
-#### One-Time Setup (Takes ~2 minutes):
-1. Download and install the free **DroidCam OBS Virtual Output** plugin & drivers from [dev47apps releases](https://github.com/dev47apps/droidcam-obs-virtual-output/releases) (install both `DroidCam.Drivers` and `DroidCam.OBSVirtualOut.Plugin`, then restart your PC once).
-2. Open **OBS Studio**, click **`+`** under **Sources** ➔ **Window Capture**, and select **`MirrorCam Clean Feed`**. Right-click the source ➔ **Transform** ➔ **Fit to Screen**. *(OBS saves this permanently — you never have to set this up again!)*
+> [!NOTE]
+> Unlike Win32/Electron apps such as Discord, the Microsoft Store edition of Windows WhatsApp runs inside an AppContainer sandbox and queries only modern WinRT/Media Foundation kernel drivers (`KSCATEGORY_CAPTURE`). MirrorCam bridges this cleanly through OBS Studio and the **DroidCam Virtual Output** driver.
 
-#### Everyday Hands-Free Usage:
-1. Open **MirrorCam Studio** and leave **⚡ Auto-connect OBS (hands-free)** checked.
-2. Click **▶ Start Stream** — MirrorCam pops out the Clean Feed, launches OBS in the background, activates DroidCam Virtual Output automatically, and minimises OBS out of your way.
-3. In **WhatsApp Desktop**, pick **`DroidCam Video`** as your camera.
+#### One-Time Setup
+1. Install the free **DroidCam OBS Virtual Output** drivers and plugin from the [dev47apps releases](https://github.com/dev47apps/droidcam-obs-virtual-output/releases) (`DroidCam.Drivers` and `DroidCam.OBSVirtualOut.Plugin`), then restart Windows once.
+2. Open **OBS Studio**, add a **Window Capture** source under **Sources**, and select **`MirrorCam Clean Feed`**. Right-click the source and choose **Transform -> Fit to Screen**. OBS remembers this scene permanently.
 
-> **💡 Zero-Setup Alternative:** Opening **[web.whatsapp.com](https://web.whatsapp.com)** in Chrome or Edge detects **`OBS Virtual Camera`** directly with no extra plugins needed.
+#### Daily Hands-Free Workflow
+1. Launch **MirrorCam Studio** with **Auto-connect OBS (hands-free)** enabled.
+2. Click **Start Stream** — MirrorCam opens the full-resolution Clean Feed, launches OBS silently in the background if closed, activates DroidCam Virtual Output, and minimizes OBS away.
+3. Choose **`DroidCam Video`** inside WhatsApp Desktop.
+
+> [!TIP]
+> Prefer zero additional plugins? Open **[web.whatsapp.com](https://web.whatsapp.com)** in Chrome or Edge — browser sessions recognize **`OBS Virtual Camera`** natively.
 
 ---
 
-## 💻 Running From Source & Command-Line (CLI)
+## Developer Guide & Command-Line Interface
 
-Prefer running from Python or automating streams from the terminal?
+You can run MirrorCam directly from Python source or drive streams headlessly from the terminal.
 
-### Setup
+### Local Setup
 ```powershell
 git clone https://github.com/stack-rishi/MirrorCam-Studio.git
 cd MirrorCam-Studio
 pip install -r requirements.txt
 ```
 
-### Launch the GUI
+### Launch Desktop Studio
 ```powershell
 python mirrorcam_gui.py
 ```
 
-### Use the CLI (`camera.py`)
+### Command-Line Streaming (`camera.py`)
 ```powershell
-# Stream your webcam matching your native screen resolution & aspect ratio
+# Match primary display resolution and aspect ratio automatically
 python camera.py --match-screen
 
-# Stream webcam at 1080p @ 30 FPS
+# Stream physical webcam at 1080p, 30 FPS
 python camera.py --camera 0 --width 1920 --height 1080 --fps 30
 
-# Stream a looping video, photo, or animated GIF
-python camera.py --file path/to/clip.mp4
-python camera.py --file path/to/photo.png
-python camera.py --file path/to/reaction.gif
+# Stream a looping video, still image, or animated GIF
+python camera.py --file path/to/loop.mp4
+python camera.py --file path/to/frame.png
+python camera.py --file path/to/motion.gif
 
-# Passthrough without horizontal flip or without preview window
-python camera.py --file path/to/clip.mp4 --no-mirror --no-preview
+# Disable horizontal flip or suppress the local preview window
+python camera.py --file path/to/loop.mp4 --no-mirror --no-preview
 ```
 
-### Build Your Own `MirrorCam.exe`
+### Package Standalone Executable
 ```powershell
 pip install pyinstaller
 pyinstaller MirrorCam.spec --noconfirm
 ```
-The compiled executable will appear in `dist/MirrorCam.exe`.
+The compiled binary outputs to `dist/MirrorCam.exe`.
 
 ---
 
-## 📁 What's Inside the Repo
+## Repository Layout
 
 ```text
 MirrorCam-Studio/
-├── mirrorcam_gui.py     # Main Windows GUI (High-DPI aware, Clean Feed & OBS automation)
-├── camera.py            # Lightweight CLI streamer for webcams, photos, videos & GIFs
-├── activate_obs.py      # Standalone script to auto-launch OBS & enable DroidCam output
-├── activate_obs.bat     # Double-click shortcut for standalone OBS activation
-├── MirrorCam.spec       # PyInstaller configuration to build MirrorCam.exe
-├── app_icon.ico         # Windows executable & window icon
-├── app_icon.png         # Studio brand logo
-├── requirements.txt     # Python dependencies (opencv-python, pyvirtualcam, pillow)
+├── mirrorcam_gui.py     # High-DPI Windows GUI, Clean Feed window & OBS automation
+├── camera.py            # Headless CLI streamer for webcams, photos, videos & GIFs
+├── activate_obs.py      # Standalone OBS + DroidCam activation utility
+├── activate_obs.bat     # Quick Windows launcher for activate_obs.py
+├── MirrorCam.spec       # PyInstaller build configuration
+├── app_icon.ico         # Windows executable icon
+├── app_icon.png         # MirrorCam Studio emblem
+├── requirements.txt     # Runtime dependencies (opencv-python, pyvirtualcam, pillow)
 ├── LICENSE              # MIT License
-└── README.md            # Project guide
+└── README.md            # Documentation
 ```
 
 ---
 
-## ❓ Troubleshooting
+## Troubleshooting
 
-- **My calling app doesn't list `OBS Virtual Camera`:**  
-  Make sure OBS Studio is installed, click **Start Stream** in MirrorCam first, and then restart your calling app so it refreshes available video devices.
-- **WhatsApp Desktop still only shows my built-in webcam:**  
-  Verify the **DroidCam Virtual Output** drivers are installed and that you restarted Windows afterwards. In MirrorCam, click **📱 WhatsApp Setup** for the quick 4-step checklist.
-- **`Could not open camera index 0`:**  
-  Another app (Windows Camera, Zoom, Discord) currently owns your physical webcam. Close the other app or switch **Camera Index** to `1`.
-- **My video looks flipped the wrong way:**  
-  Check **Mirror output (Flip horizontally)** in MirrorCam and disable any built-in mirror toggle inside Discord/Zoom/Meet.
+- **Virtual camera does not appear in your call app**  
+  Confirm OBS Studio is installed, click **Start Stream** in MirrorCam first, and reopen your calling app's device list.
+- **WhatsApp Desktop displays only the built-in webcam**  
+  Ensure both the DroidCam drivers and OBS plugin are installed and that Windows has been restarted once since installation.
+- **Camera index fails to open (`Could not open camera index 0`)**  
+  Close other apps currently holding your physical camera (such as Windows Camera, Zoom, or Discord) or switch **Camera Index** to `1`.
+- **Outgoing feed looks reversed**  
+  Verify **Mirror output (Flip horizontally)** is enabled in MirrorCam and turn off any duplicate self-view mirror setting inside your calling app.
 
 ---
 
 <div align="center">
 
-**"Don't just join the call. Make your camera yours."**
+*"Don't just join the call. Make your camera yours."*
 
-If MirrorCam Studio saved you time or made your calls more fun, feel free to star the repo!
+Licensed under the [MIT License](LICENSE).
 
 </div>
