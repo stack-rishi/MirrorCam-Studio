@@ -1,0 +1,21 @@
+# Build & packaging artifacts
+build/
+dist/
+*.exe
+*.manifest
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE & OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
