@@ -8,9 +8,9 @@
 
 *One lens. Infinite frames. Complete creative control over what your camera says on every call.*
 
-[![Download MirrorCam Studio](https://img.shields.io/badge/Download-MirrorCam.exe_v1.0.0-111827?style=for-the-badge)](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)
-[![Platform](https://img.shields.io/badge/Platform-Windows_10_%26_11-1f2937?style=for-the-badge)](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-374151?style=for-the-badge)](LICENSE)
+[![Download MirrorCam Studio](assets/badge-download.svg)](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)
+[![Platform](assets/badge-platform.svg)](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest)
+[![License: MIT](assets/badge-license.svg)](LICENSE)
 
 </div>
 
