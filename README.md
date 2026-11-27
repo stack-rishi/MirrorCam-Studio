@@ -8,8 +8,8 @@
 
 *One lens. Infinite frames. Complete creative control over what your camera says on every call.*
 
-[![Download MirrorCam Studio](https://img.shields.io/badge/Download-MirrorCam.exe%20(v1.0.0)-111827?style=for-the-badge&logo=windows)](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)
-[![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-1f2937?style=for-the-badge)](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest)
+[![Download MirrorCam Studio](https://img.shields.io/badge/Download-MirrorCam.exe_v1.0.0-111827?style=for-the-badge)](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)
+[![Platform](https://img.shields.io/badge/Platform-Windows_10_%26_11-1f2937?style=for-the-badge)](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-374151?style=for-the-badge)](LICENSE)
 
 </div>
@@ -18,7 +18,7 @@
 
 > *"Your webcam doesn't have to show only your face. Show what you want, the way you want."*
 
-Every video call begins with the same square frame — an un-mirrored, unyielding live feed that often feels backwards when you look at it and rigid when you need something else.
+Every video call begins with the same square frame: an un-mirrored, unyielding live feed that often feels backwards when you look at it and rigid when you need something else.
 
 **MirrorCam Studio** reimagines that outgoing camera feed on Windows as an expressive canvas. Whether you want the quiet familiarity of a horizontally mirrored lens, a calm still photograph while you step away, a looping visual composition, or an animated GIF timed to the moment, MirrorCam routes your chosen medium straight into **WhatsApp Desktop**, **Discord**, **Zoom**, **Google Meet**, and **Microsoft Teams**.
 
@@ -38,7 +38,7 @@ Built to feel lightweight yet intentional, MirrorCam bridges the gap between sim
   Designed with Windows Per-Monitor V2 DPI awareness so every control renders razor-sharp on scaled displays. Automatically detects your monitor's native resolution and aspect ratio (`16:9`, `16:10`, `4:3`), applying clean letterboxing and bicubic interpolation so your frame never arrives stretched or blurred.
 
 - **Seamless Windows WhatsApp Desktop Bridge**  
-  Includes a dedicated, distraction-free **Clean Feed** pop-out paired with hands-free background automation for OBS Studio and DroidCam Virtual Output — bypassing the Microsoft Store camera sandbox in a single click.
+  Includes a dedicated, distraction-free **Clean Feed** pop-out paired with hands-free background automation for OBS Studio and DroidCam Virtual Output, bypassing the Microsoft Store camera sandbox in a single click.
 
 ---
 
@@ -82,7 +82,7 @@ MirrorCam uses the virtual camera infrastructure provided by **[OBS Studio](http
 
 ### 2. Download & Launch
 1. Download **[MirrorCam.exe](https://github.com/stack-rishi/MirrorCam-Studio/releases/download/v1.0.0/MirrorCam.exe)** from the [Releases](https://github.com/stack-rishi/MirrorCam-Studio/releases/latest) page.
-2. Run `MirrorCam.exe` — no Python runtime or dependency installation is required.
+2. Run `MirrorCam.exe` (no Python runtime or dependency installation is required).
 3. Select an input source:
    - **Physical Webcam** (`Camera Index` `0`, `1`, etc.), or
    - **Media File** (any photo, video, or animated GIF).
@@ -113,11 +113,11 @@ MirrorCam uses the virtual camera infrastructure provided by **[OBS Studio](http
 
 #### Daily Hands-Free Workflow
 1. Launch **MirrorCam Studio** with **Auto-connect OBS (hands-free)** enabled.
-2. Click **Start Stream** — MirrorCam opens the full-resolution Clean Feed, launches OBS silently in the background if closed, activates DroidCam Virtual Output, and minimizes OBS away.
+2. Click **Start Stream**. MirrorCam opens the full-resolution Clean Feed, launches OBS silently in the background if closed, activates DroidCam Virtual Output, and minimizes OBS away.
 3. Choose **`DroidCam Video`** inside WhatsApp Desktop.
 
 > [!TIP]
-> Prefer zero additional plugins? Open **[web.whatsapp.com](https://web.whatsapp.com)** in Chrome or Edge — browser sessions recognize **`OBS Virtual Camera`** natively.
+> Prefer zero additional plugins? Open **[web.whatsapp.com](https://web.whatsapp.com)** in Chrome or Edge, where browser sessions recognize **`OBS Virtual Camera`** natively.
 
 ---
 
